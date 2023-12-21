@@ -10,7 +10,7 @@ class TaskListView extends StatelessWidget {
     final controller = TaskController();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TODO'),
+        title: const Text('Quản Lý công việc'),
         actions: [
           IconButton(
             onPressed: () {
@@ -21,7 +21,7 @@ class TaskListView extends StatelessWidget {
                 },
               );
             },
-            icon: const Icon(Icons.add),
+            icon: const Icon(Icons.add_to_photos),
           )
         ],
       ),
