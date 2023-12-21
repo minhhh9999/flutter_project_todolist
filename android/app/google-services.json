@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261717063513",
+    "project_id": "minh-to-do-list-app",
+    "storage_bucket": "minh-to-do-list-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261717063513:android:879d20a1f48471bde5fe48",
+        "android_client_info": {
+          "package_name": "com.example.to_do_list"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoqXaffyUuks7qn5xD-f5_61dz_58qMzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
