@@ -21,7 +21,7 @@ class TaskListView extends StatelessWidget {
                 },
               );
             },
-            icon: const Icon(Icons.add_to_photos),
+            icon: const Icon(Icons.my_library_add_outlined),
           )
         ],
       ),
