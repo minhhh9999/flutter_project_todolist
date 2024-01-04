@@ -64,11 +64,11 @@ class AddTaskDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     final titleController = TextEditingController();
     return AlertDialog(
-      title: const Text('Add task'),
+      title: const Text('Thêm công việc'),
       content: TextField(
         controller: titleController,
         decoration: const InputDecoration(
-          hintText: 'Title',
+          hintText: 'Tiêu đề',
         ),
       ),
       actions: [
@@ -76,7 +76,7 @@ class AddTaskDialog extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: const Text('Cancel'),
+          child: const Text('Hủy'),
         ),
         ElevatedButton(
           onPressed: () {
@@ -85,7 +85,7 @@ class AddTaskDialog extends StatelessWidget {
             TaskController().addTask(task);
             Navigator.pop(context);
           },
-          child: const Text('Add'),
+          child: const Text('Thêm'),
         )
       ],
     );
