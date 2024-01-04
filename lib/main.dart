@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_list/theme/theme.dart';
 import 'task_list_view.dart';
 
 void main() {
@@ -10,11 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
+      title: 'ToDo List',
       home: const TaskListView(),
+      theme: lightMode,
+      darkTheme: darktMode,
     );
   }
 }
