@@ -9,3 +9,8 @@
 - Bấm vào app có trên điện thoại giả lập để mở app
 - Ấn vào icon thêm phía trên bên phải của app để thêm những việc bạn cần làm
 - Sau khi thực hiện xong bạn có thể tích vào ô bên cạnh để đánh dấu việc bạn đã thực hiện xong
+
+
+
+### Tài liệu tham khảo 
+- Giáo trình PHÁT TRIỂN ỨNG DỤNG ĐA NỀN TẢNG VỚI FLUTTER Tác giả TS. Trần Trung Chuyên giảng viên khoa Công Nghệ Thông Tin, Trường Đại học Mỏ-Địa chất 
